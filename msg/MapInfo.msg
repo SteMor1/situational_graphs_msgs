@@ -1,0 +1,5 @@
+std_msgs/Header header
+uint64 map_version
+geometry_msgs/Pose robot_pose
+RoomInfo[] rooms
+WallData[] walls

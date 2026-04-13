@@ -1,0 +1,5 @@
+bool include_detailed_planes
+---
+bool success
+string message
+MapInfo map_info
