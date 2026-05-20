@@ -1,6 +1,8 @@
 # - IDEs Folder
 .vscode
 build/
+install/
+log/
 *~
 
 # - Clangd

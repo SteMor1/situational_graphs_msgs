@@ -28,16 +28,21 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PointClouds.msg"
   "msg/PlaneData.msg"
   "msg/PlanesData.msg"
+  "msg/DoorInfo.msg"
   "msg/RoomData.msg"
   "msg/RoomsData.msg"
+  "msg/RoomInfo.msg"
+  "msg/FloorInfo.msg"
   "msg/FloorCoeffs.msg"
   "msg/FloorData.msg"
+  "msg/MapInfo.msg"
   "msg/ScanMatchingStatus.msg"
   "msg/WallData.msg"
   "msg/WallsData.msg"
   "srv/DumpGraph.srv"
   "srv/SaveMap.srv"
   "srv/LoadGraph.srv"
+  "srv/GetMapInfo.srv"
   DEPENDENCIES builtin_interfaces rosidl_default_generators std_msgs geometry_msgs sensor_msgs visualization_msgs
 )
 
